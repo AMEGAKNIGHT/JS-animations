@@ -1,0 +1,30 @@
+button {
+    background: black;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    margin: 2px 2px 2px 0px;
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 1px;
+    transition: 0.2s;
+  } 
+  button:hover { background: rgba(201, 4, 4, 0.829); }
+  button:active { background: rgb(134, 3, 3); }
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: black;
+    border:2px solid brown;
+}
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: rgb(68, 0, 255);
+    border: 3px solid rgb(255, 255, 255);
+}
